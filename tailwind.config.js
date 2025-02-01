@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Garamond: ['"Garamond96DTPro"', "sans-serif"],
+        Clash: ['"Clash Grotesk"', "sans-serif"],
         Neue : ['"Neue Augenblick"', "sans-serif"]
       },
       colors:{
@@ -16,13 +16,13 @@ export default {
         'red': '#DB4537',
       },
       fontSize:{
-        'clamp1': 'clamp(15px, 8vw, 75px)',
+        'clamp1': 'clamp(20px, 6vw, 50px)',
         'clamp2': 'clamp(10px, 4vw, 32px)',
         'clamp3': 'clamp(10px, 2vw, 24px)',
-        'clamp4': 'clamp(15px, 9vw, 45px)',
+        'clamp4': 'clamp(5px, 6vw, 45px)',
       },
       height: {
-        'clamp4': 'clamp(15px, 60vw, 500px)',
+        'clamp4': 'clamp(15px, 70vw, 700px)',
       },
 
     },
