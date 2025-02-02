@@ -12,9 +12,9 @@ export default function About() {
             >
                 <p className="mb-10">&nbsp;&nbsp;&nbsp;&nbsp;Hey! I'm Ralph Enrique, currently pursuing a major in Information Technology with a focus on Software Engineering. My current area of focus is in web development technologies.</p>
                 <p className="mb-10">
-                    &nbsp;&nbsp;Beyond the digital realm, I'm a passionate cinematographer, drawing inspiration from cinematic maestros like Christopher Nolan. Excited about merging technology and storytelling.</p>
+                    &nbsp;Beyond the digital realm, I'm a cinematographer, drawing inspiration from cinematic maestros like Christopher Nolan. Excited about merging technology and storytelling.</p>
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;I'm on a journey to master the art of creating captivating digital experiences.
+                    &nbsp;&nbsp;I'm on a journey to master the art of creating captivating digital experiences.
                 </p>
             </span>
         </div>

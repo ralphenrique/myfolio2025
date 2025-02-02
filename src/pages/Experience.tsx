@@ -2,9 +2,9 @@ import SectionName from '../ui/SectionName';
 
 export default function Experience() {
     return (
-        <div className="lg:px-0 px-10  mt-[150px] w-full max-w-[880px] flex flex-row items-start text-white font-Clash">
+        <div className="lg:px-0 px-10  mt-[150px] w-full max-w-[880px] lg:flex-row flex flex-col items-start text-white font-Clash">
             <SectionName title="[Experience]" />
-            <div className="flex flex-col items-start w-full pl-[10%]">
+            <div className="flex flex-col items-start w-full lg:pl-[10%] pl-0">
                 <div className="h-[1px] bg-white w-full mt-5 mb-10"></div>
                 <div className="flex items-start w-full gap-[10%] text-clamp2 font-semibold">
                     <span>Now</span>
