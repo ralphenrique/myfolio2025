@@ -1,10 +1,14 @@
 import './App.css'
 import Hero from './pages/Hero'
 import About from './pages/About'
+import Skills from './pages/Skills'
+import Experience from './pages/Experience'
+import Interests from './pages/Interests'
+import Footer from './pages/Footer'
 import Lenis from 'lenis'
 
 export default function App() {
-  const lenis = new Lenis({
+  new Lenis({
     autoRaf: true,
   });
 
@@ -28,6 +32,10 @@ export default function App() {
       <div className='bg-black pt-[150px] flex flex-col items-center'>
         <Hero />
         <About />
+        <Skills />
+        <Experience />
+        <Interests />
+        <Footer />
       </div>
     </>
   )
