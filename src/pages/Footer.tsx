@@ -31,8 +31,8 @@ export default function Footer() {
                 <h1 className="text-clamp5 font-semibold">[ Contact ]</h1>
                 <p className="text-clamp1 font-semibold tracking-tight">This is the part where you get in touch!</p>
                 <span className="pt-5 text-clamp3">
-                    <a href="https://www.linkedin.com/in/ralphenrique/" >github · </a>
-                    <a href="https://github.com/rikeenrike" >linkedin · </a>
+                    <a href="https://www.linkedin.com/in/ralphenrique/" >linkedin · </a>
+                    <a href="https://github.com/rikeenrike" >github · </a>
                     <a href="https://www.instagram.com/ralphenrique_/" >instagram · </a>
                     <a href="https://bento.me/ralphenrique" >bento</a>
                 </span>
