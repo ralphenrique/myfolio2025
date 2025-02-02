@@ -38,8 +38,8 @@ export default function Footer() {
                 </span>
             </div>
             <div className="flex w-full text-clamp3  justify-between items-center pt-[30%]">
-                <a href="">Davao City, Philippines</a>
-                <a href="">PHT {time}</a>
+                <a href="https://www.google.com/maps/place/Davao+City,+Davao+del+Sur/@7.2535176,125.1214096,10z/data=!3m1!4b1!4m6!3m5!1s0x32f96d9f519e327f:0xb53a24589f79c573!8m2!3d7.0736114!4d125.6110248!16zL20vMDJnbjF4?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D">Davao City, Philippines</a>
+                <a>PHT {time}</a>
             </div>
             <div className="text-[12px] select-none flex items-center justify-center gap-1 pt-[10%] pb-5">
                 <div className="absolute flex justify-center overflow-hidden">
