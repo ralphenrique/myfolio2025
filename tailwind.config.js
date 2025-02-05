@@ -6,10 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        Clash: ['"Clash Grotesk"', "sans-serif"],
-        Satoshi : ['"Satoshi"', "sans-serif"]
-      },
       colors:{
         'black': '#0E0E0E',
         'white': '#FFFFFF',
@@ -30,7 +26,10 @@ export default {
       gridTemplateColumns: {
         'template-columns-[60%_40%]': '60% 40%',
       },
-
+      fontFamily: {
+        'font-clash': ['var(--font-clash)', 'sans-serif'],
+        'font-satoshi': ['var(--font-satoshi)', 'sans-serif']
+      },
     },
   },
   plugins: [],

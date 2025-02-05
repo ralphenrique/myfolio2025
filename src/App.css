@@ -1,27 +1,63 @@
+@font-face {
+  font-family: 'Clash Grotesk';
+  src: url('./fonts/ClashGrotesk-Variable.ttf');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./fonts/Satoshi-Variable.ttf');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-html::-webkit-scrollbar,
-body::-webkit-scrollbar {
-  display: none;
+@layer base {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  html,
+  body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    @apply font-satoshi m-0;
+  }
+
+  * {
+    @apply m-0;
+  }
+
+  /* Custom text highlight color */
+  ::selection {
+    background: #353535;
+    /* Blue background */
+    color: white;
+    /* White text */
+  }
+
+  /* For Firefox */
+  ::-moz-selection {
+    background: #ffffff;
+    color: white;
+  }
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-html, body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+@layer utilities {
+  .font-clash {
+    font-family: var(--font-clash);
+  }
+  .font-satoshi {
+    font-family: var(--font-satoshi);
+  }
 }
 
-/* Custom text highlight color */
-::selection {
-  background: #353535; /* Blue background */
-  color: white; /* White text */
-}
-
-/* For Firefox */
-::-moz-selection {
-  background: #ffffff;
-  color: white;
+:root {
+  --font-satoshi: "Satoshi", sans-serif;
+  --font-clash: "Clash Grotesk", sans-serif;
 }

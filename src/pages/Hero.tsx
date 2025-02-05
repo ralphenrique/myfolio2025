@@ -9,11 +9,10 @@ export default function Hero() {
         <div className=' w-[14px] h-[14px] rounded-xl bg-red drop-shadow-[0px_0px_4px_#DB4537]'></div>
       </span>
       <span className="lg:text-[65px] text-clamp1 text-center font-Clash font-semibold tracking-tighter leading-tight">
-        <p className="m-0">Hey, I'm Ralph!</p>
+        <p className="m-0 font-clash">Hey, I'm Ralph!</p>
         <span className='text-clamp2 tracking-normal'>
-          <p className="m-0">a software developer, student leader</p>
-          <p className="m-0"></p>
-          <p className="m-0">cinematographer, & a volunteer</p>
+          <p className="font-clash">a software developer, student leader</p>
+          <p className="font-clash">cinematographer, & a volunteer</p>
         </span>
 
       </span>

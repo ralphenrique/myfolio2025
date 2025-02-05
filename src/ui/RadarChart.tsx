@@ -50,7 +50,7 @@ export default function RadarChart() {
                     font: {
                         size: 15,
                         weight: 500,
-                        family: 'Clash Grotesk'
+                        family: 'Clash Grotesk, sans-serif'
                     },
                     padding: 20
                 },

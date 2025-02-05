@@ -130,12 +130,12 @@ export default function Skills() {
     ]
 
     return (
-        <div className="lg:px-0 px-10 w-full max-w-[880px] mx-auto mt-[150px] text-white font-Clash text-clamp2">
+        <div className="lg:px-0 px-10 w-full max-w-[880px] mx-auto mt-[150px] text-white  text-clamp2">
             <div className="grid grid-cols-5 gap-8 md:gap-12">
                 {/* Left section */}
                 <div className="col-span-3 w-full font-semibold tracking-tight">
                     <SectionName title="[ Skills ]" />
-                    <div className="mt-10 leading-tight">
+                    <div className="mt-10 leading-tight font-clash">
                         {["Graphics", "Cinematography", "Developer", "Video Editor"].map((skill, index) => (
                             <div
                                 key={index}
@@ -154,7 +154,7 @@ export default function Skills() {
                 </div>
 
                 {/* Right section */}
-                <div className="col-span-2 w-full">
+                <div className="col-span-2 w-full font-clash">
                     <SectionName title="[ Tools ]" />
                     <div className="mt-10 leading-tight">
                         {getToolsList().length === 0 ? (
