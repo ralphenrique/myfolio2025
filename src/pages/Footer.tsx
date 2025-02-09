@@ -50,7 +50,7 @@ export default function Footer() {
                     <span className="flex pt-5 space-x-1 tracking-wider">
                         <a href="https://www.linkedin.com/in/ralphenrique/" >Linkedin</a>
                         <p className="text-[#696969]"> • </p>
-                        <a href="https://github.com/rikeenrike" >Github</a>
+                        <a href="https://github.com/ralphenrique" >Github</a>
                         <p className="text-[#696969]"> • </p>
                         <a href="https://www.instagram.com/ralphenrique_/" >Instagram</a>
                         <p className="text-[#696969]"> • </p>
