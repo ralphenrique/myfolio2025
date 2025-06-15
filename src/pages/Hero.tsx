@@ -1,7 +1,5 @@
 
 import { Icon } from '@iconify/react';
-const emoji_1 =
-  "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Medium-Light%20Skin%20Tone.png";
 export default function Hero() {
   return (
     <div className="lg:px-0 px-10 w-full max-w-[880px] flex flex-col  text-white '">
