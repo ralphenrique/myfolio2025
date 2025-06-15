@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="lg:px-0 px-10  mt-[150px] w-full max-w-[880px] flex flex-col items-center text-white font-Clash">
             <div className="flex flex-col w-full items-center justify-center">
                 <SectionName title='[ That is All! ]' />
-                <p className="text-clamp5 font-semibold tracking-tighter text-center font-clash">Wanna get in touch?</p>
+                <p className="text-clamp4 font-semibold tracking-tighter text-center font-clash">let's vibe code your idea</p>
                       <div className="flex items-center justify-center w-full m-0 p-0">
                         <Icon icon="pixelarticons:arrow-down" className='w-[44px] h-[44px] lg:w-[74px] lg:h-[74px]' />
                       </div>

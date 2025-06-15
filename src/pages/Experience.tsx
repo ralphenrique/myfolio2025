@@ -13,10 +13,10 @@ export default function Experience() {
                             <span>Campus Organizer</span>
                             <p className='text-clamp3 text-justify font-normal opacity-50 leading-tight'>at Google Developer Groups On Campus UIC, I host workshops and seminars, inspiring like-minded individuals to embark on their tech journey.</p>
                         </div>
-                        <div>
+                        {/* <div>
                             <span>Software Developer</span>
                             <p className='text-clamp3 text-justify font-normal opacity-50 leading-tight'>at Commission on Higher Education Department. Currently sitting as Frontend Developer on their upcoming Information Repository System</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="h-[1px] bg-white w-full my-10"></div>

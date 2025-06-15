@@ -28,7 +28,8 @@ export default {
       },
       fontFamily: {
         'font-clash': ['var(--font-clash)', 'sans-serif'],
-        'font-satoshi': ['var(--font-satoshi)', 'sans-serif']
+        'font-satoshi': ['var(--font-satoshi)', 'sans-serif'],
+        'font-nerd': ['var(--font-nerd)', 'sans-serif'],
       },
     },
   },
