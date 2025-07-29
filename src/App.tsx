@@ -33,7 +33,7 @@ export default function App() {
         <Hero />
         <About />
         <Skills />
-        <Experience />
+        {/* <Experience /> */}
         <Interests />
         <Footer />
       </div>
